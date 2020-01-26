@@ -1,0 +1,140 @@
+* {
+	padding: 0px;
+	margin:0px;
+}
+.contenu_menu {
+	position:fixed;
+	top:0vw;
+	left:-15vw;
+	height: 100vh;
+	background-color: #424874;
+	width:15vw;
+	transition: left 1s ease;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.lien {
+	color:#D6E5E3;
+	text-align: left;
+	text-decoration: none;
+	height: 8vh;
+	line-height: 8vh;
+	border-bottom:solid 1px #211019;
+	transition:all 0.5s ease;
+}
+.lien:hover {
+	height: 10vh;
+	line-height: 10vh;
+}
+.contenu {
+	width:91vw;
+	background-color: white;
+	position:relative;
+	transition:all 1s ease;
+	left:3.85vw;
+	overflow: hidden;
+}
+.links {
+	display: flex;
+	flex-direction: column;
+}
+/* Style Bouton menu et menu */
+label[for='button'] {
+  font-size:2vw;
+  position:fixed;
+  transition: left 1s ease;
+  height: 100vh;
+  top:20px;
+  left:1vw;
+}
+
+label[for='button']:hover {
+	cursor: pointer;
+}
+
+#button {
+	display:none;
+	width:5vw;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+@media screen and (max-width: 1200px) {
+	.lien {
+		font-size: 20px;
+		width:90vw;
+	}
+	.links img {
+		margin-top: 60vh;
+	}
+	/* Quand on clique sur le bouton du menu */
+	#button:checked ~ label[for='button'] {
+	  left:94vw;
+	}
+	#button:checked ~ .contenu_menu {
+	  left:0vw;
+	}
+	#button:checked ~ .contenu {
+		width:0vw;
+		left:100vw;
+	}
+	.contenu_menu {
+		position:fixed;
+		top:0vw;
+		left:-95vw;
+		height: 100vh;
+		background-color: #424874;
+		width:93vw;
+		transition: left 1s ease;
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.contenu_menu img {
+		width:12vw;
+		height:12vw;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.lien {
+		font-size: 15px;
+		width:13vw;
+	}
+	.links img {
+		margin-top: 30vh;
+	}
+	/* Quand on clique sur le bouton du menu */
+	#button:checked ~ label[for='button'] {
+	  left:15.85vw;
+	}
+	#button:checked ~ .contenu_menu {
+	  left:0vw;
+	}
+	#button:checked ~ .contenu {
+		left:18.85vw;
+		width:76vw;
+	}
+	.contenu_menu {
+		position:fixed;
+		top:0vw;
+		left:-15vw;
+		height: 100vh;
+		background-color: #424874;
+		width:15vw;
+		transition: left 1s ease;
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.contenu_menu img {
+		width:7vw;
+		height:7vw;
+	}
+}

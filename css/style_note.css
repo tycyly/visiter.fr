@@ -1,0 +1,77 @@
+#note1:checked ~ .note5 {
+  color:yellow;
+  font-size: 20px;
+  font-weight: bold;
+}
+#note2:checked ~ .note4 {
+  color:yellow;
+  font-size: 20px;
+  font-weight: bold;
+}
+#note3:checked ~ .note3 {
+  color:yellow;
+  font-size: 20px;
+  font-weight: bold;
+}
+#note4:checked ~ .note2 {
+  color:yellow;
+  font-size: 20px;
+  font-weight: bold;
+}
+#note5:checked ~ .note1 {
+  color:yellow;
+  font-size: 20px;
+  font-weight: bold;
+}
+input[type='radio'] {
+	display:none;
+}
+#champsCom, #modifieCom label {
+	margin-right:10px;
+	margin-left:10px;
+}
+#champsCom, #modifieCom {
+	background-color: #A6B1E1;
+	margin-bottom: 20px;
+}
+#etoiles{
+	height: 30px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+#champsCom form {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#champsCom , #modifieCom{
+	border-top: solid 2px black;
+	border-bottom: solid 2px black;
+}
+
+#p_com {
+	display:flex;
+	justify-content: center;
+}
+#inputCom, #nouveauCommentaire {
+	font-size: 20px;
+	height: 80px;
+	vertical-align: top;
+	line-height: 40px;
+	display: block;
+	border-radius: 10px;
+	resize:vertical;
+	max-height:300px;
+	width:30vw;
+}
+#champsCom input[type=submit]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+}

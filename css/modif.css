@@ -1,0 +1,55 @@
+.login_div input[type=submit]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.login_div input[type=password],input[type=text]{
+  border-radius: 15px;
+  padding: 5px;
+}
+.login_div p
+{
+  margin: 20px;
+  display:flex;
+}
+
+.login_div label{
+display:flex;
+flex-direction: column;
+width: 200px;
+}
+.login_div form {
+  text-align: center;
+}
+.login_div {
+  min-height: 85vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.error {
+  color:red;
+}
+.valid {
+  color:green;
+}
+.bords {
+  padding: 20px 20px;
+  text-align: center;
+}
+footer, header {
+  background-color: #424874;
+  color:#DCD6F7;
+  width:auto;
+  height: 5vh;
+  line-height: 5vh;
+}
+form {
+  padding:5px;
+  box-shadow: 1vh 1vh 100px black
+}

@@ -1,0 +1,57 @@
+.inscription_div p
+{
+	margin: 20px;
+}
+
+.inscription_div label {
+float: left;
+text-align:left;
+width: 200px;
+}
+
+.inscription_div input[type=submit]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.inscription_div input[type=password], .inscription_div input[type=text], .inscription_div input[type=email]{
+  width: 20vw;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+#valide
+{
+	margin-left: 220px;
+}
+.error {
+	color:red;
+}
+.valid {
+	color:green;
+}
+.bords {
+  text-align: center;
+}
+footer, header {
+  background-color: #424874;
+  color:#DCD6F7;
+  width:auto;
+  height: 10vh;
+  line-height: 10vh;
+}
+.inscription_div {
+  min-height: 80vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+form {
+  padding:5px;
+  box-shadow: 1vh 1vh 100px black
+}

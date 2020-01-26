@@ -1,0 +1,44 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #D6E5E3;
+}
+
+header {
+	background-color: #424874;
+	border-bottom: solid 2px black;
+	color: #D6E5E3;
+}
+
+.bords {
+	text-align: center;
+	padding: 2vh 0vh;
+	transition: all 1s;
+}
+
+.avertissement {
+	text-align: center;
+	font-size: 3vw;
+	padding-top: 4vh;
+	height: 40vh;
+	line-height: 40vh;
+	padding-left: 2vw;
+}
+
+footer {
+	background-color: #424874;
+	color: #D6E5E3;
+	position: absolute;
+	border-top: solid 2px black;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#accueilImage {
+	width: 30vw;
+	height: 15vh;
+}

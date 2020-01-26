@@ -1,0 +1,41 @@
+header{
+	text-align: center;
+	background-color:#424874;
+	background-size: cover;
+	height: 10vh;
+	line-height: 10vh;
+	color: white;
+}
+header h1{
+	font-size: 3vw;
+}
+footer{
+	height: 10vh;
+	background:  #424874;
+	text-align: center;
+	line-height: 10vh;
+	color: white;
+}
+.textInfo {
+	min-height: 80vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.itemInfo {
+	height: 5vh;
+	min-width: 30vw;
+	line-height: 5vh;
+	border-bottom: solid 1px #424874;
+	display:flex;
+}
+.itemInfo p {
+	width:28vw;
+}
+.itemInfo p, .itemInfo i {
+	line-height: 5vh;
+}
+.itemInfo a {
+	color:black;
+}

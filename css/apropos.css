@@ -1,0 +1,51 @@
+.contenu {
+	background: url('../img/wall_propos.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header > h1 {
+	font-size: 60px;
+}
+header {
+	border-bottom: solid 2px black;
+}
+
+.bords {
+	padding: 20px 20px;
+	text-align: center;
+	background-color: #424874;
+	color: #D6E5E3;
+}
+
+.informations {
+	margin-top: 300px;
+	border-bottom: solid black 2px;
+	border-top: solid black 2px;
+	background-color: white;
+}
+
+.informations > h2 {
+	margin: 25px 50px;
+	font-size: 50px;
+}
+
+.informations > p {
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#groupe > p {
+	font-size: 60px;
+	font-weight: bolder;
+}
+
+footer {
+	margin-top: 300px;
+	border-top: solid 2px black;
+}
+
+footer > p {
+	font-size: 30px;
+}
